@@ -47,5 +47,3 @@ class TrackInfoShowGui:
         self.track.destroy()
         self.author.destroy()
         self.frame.destroy()
-
-
