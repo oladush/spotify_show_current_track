@@ -11,7 +11,7 @@ class CoverShowGUI:
         self.frame = None
 
         self.root.title(TITLE)
-        self.root.geometry(f"{HEIGHT}x{WIDTH}")
+        self.root.geometry(f"{HEIGHT}x{WIDTH}+{CS_X}+{CS_Y}")
         root.resizable(width=RESIZE_ON, height=RESIZE_ON)
         self.set_image(info)
 
